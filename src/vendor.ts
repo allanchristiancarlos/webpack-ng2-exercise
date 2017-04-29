@@ -2,9 +2,10 @@ import '@angular/platform-browser';
 import '@angular/platform-browser-dynamic';
 import '@angular/core';
 import '@angular/common';
-import '@angular/http';
-import '@angular/router';
 
 import 'rxjs';
 
-import '@angular/material/prebuilt-themes/indigo-pink.css';
+import 'material-design-lite/src/_color-definitions.scss';
+import 'material-design-lite/src/material-design-lite-grid.scss';
+import 'material-design-lite/src/material-design-lite.scss';
+import 'material-design-lite/dist/material.js';
